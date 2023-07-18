@@ -138,11 +138,11 @@ body {
 }
 
 .midContainer {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     gap: 10px;
 }
 
@@ -187,7 +187,7 @@ body {
 
 .popupContainer {
     background-color: #f7f7f7;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
     border-radius: 5px;
     min-height: 200px;
@@ -206,17 +206,24 @@ body {
     display: flex;
     justify-content: center;
 }
-
+.centerAlign{
+    display: flex;
+    justify-content: center;
+}
 
 
 @media only screen and (max-width: 500px) {
     .popupContainer {
         width: 85%;
-        height: 250px;
+        /* margin-top: -550px; */
+        /* height: 250px; */
+    }
+    .marginTop{
+        margin-top: -550px; 
     }
 
     .bg-text {
-        top: 35%;
+        /* top: 35%; */
     }
 
     .secondaryNav {
