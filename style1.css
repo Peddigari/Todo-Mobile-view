@@ -6,6 +6,7 @@ body {
 }
 
 .Container {
+    overflow-x: hidden;
     position: relative;
     z-index: 1;
 
